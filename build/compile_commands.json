@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/book/project_test/GATEWAY_DEMO/build",
+  "command": "/usr/bin/gcc  -I/home/book/project_test/GATEWAY_DEMO/include   -g -Wall -g   -o CMakeFiles/GATEWAY_DEMO.dir/src/main.c.o   -c /home/book/project_test/GATEWAY_DEMO/src/main.c",
+  "file": "/home/book/project_test/GATEWAY_DEMO/src/main.c"
+},
+{
+  "directory": "/home/book/project_test/GATEWAY_DEMO/build",
+  "command": "/usr/bin/gcc  -I/home/book/project_test/GATEWAY_DEMO/include   -g -Wall -g   -o CMakeFiles/GATEWAY_DEMO.dir/src/raw_socket_ipv6.c.o   -c /home/book/project_test/GATEWAY_DEMO/src/raw_socket_ipv6.c",
+  "file": "/home/book/project_test/GATEWAY_DEMO/src/raw_socket_ipv6.c"
+},
+{
+  "directory": "/home/book/project_test/GATEWAY_DEMO/build",
+  "command": "/usr/bin/gcc  -I/home/book/project_test/GATEWAY_DEMO/include   -g -Wall -g   -o CMakeFiles/GATEWAY_DEMO.dir/src/socket_can.c.o   -c /home/book/project_test/GATEWAY_DEMO/src/socket_can.c",
+  "file": "/home/book/project_test/GATEWAY_DEMO/src/socket_can.c"
+},
+{
+  "directory": "/home/book/project_test/GATEWAY_DEMO/build",
+  "command": "/usr/bin/gcc  -I/home/book/project_test/GATEWAY_DEMO/include   -g -Wall -g   -o CMakeFiles/GATEWAY_DEMO.dir/src/protocol_convert.c.o   -c /home/book/project_test/GATEWAY_DEMO/src/protocol_convert.c",
+  "file": "/home/book/project_test/GATEWAY_DEMO/src/protocol_convert.c"
+},
+{
+  "directory": "/home/book/project_test/GATEWAY_DEMO/build",
+  "command": "/usr/bin/gcc  -I/home/book/project_test/GATEWAY_DEMO/include   -g -Wall -g   -o CMakeFiles/GATEWAY_DEMO.dir/src/protocol_translate.c.o   -c /home/book/project_test/GATEWAY_DEMO/src/protocol_translate.c",
+  "file": "/home/book/project_test/GATEWAY_DEMO/src/protocol_translate.c"
+},
+{
+  "directory": "/home/book/project_test/GATEWAY_DEMO/build",
+  "command": "/usr/bin/gcc  -I/home/book/project_test/GATEWAY_DEMO/include   -g -Wall -g   -o CMakeFiles/GATEWAY_DEMO.dir/src/priority.c.o   -c /home/book/project_test/GATEWAY_DEMO/src/priority.c",
+  "file": "/home/book/project_test/GATEWAY_DEMO/src/priority.c"
+},
+{
+  "directory": "/home/book/project_test/GATEWAY_DEMO/build",
+  "command": "/usr/bin/gcc  -I/home/book/project_test/GATEWAY_DEMO/include   -g -Wall -g   -o CMakeFiles/GATEWAY_DEMO.dir/src/redundancy_transmit.c.o   -c /home/book/project_test/GATEWAY_DEMO/src/redundancy_transmit.c",
+  "file": "/home/book/project_test/GATEWAY_DEMO/src/redundancy_transmit.c"
+},
+{
+  "directory": "/home/book/project_test/GATEWAY_DEMO/build",
+  "command": "/usr/bin/gcc  -I/home/book/project_test/GATEWAY_DEMO/include   -g -Wall -g   -o CMakeFiles/GATEWAY_DEMO.dir/src/C_queue.c.o   -c /home/book/project_test/GATEWAY_DEMO/src/C_queue.c",
+  "file": "/home/book/project_test/GATEWAY_DEMO/src/C_queue.c"
+}
+]

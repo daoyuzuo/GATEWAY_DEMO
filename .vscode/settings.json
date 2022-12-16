@@ -1,0 +1,11 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "cstdint": "c",
+        "raw.h": "c",
+        "socket_can.h": "c",
+        "protocol_translate.h": "c",
+        "ioctl.h": "c",
+        "can.h": "c"
+    }
+}

@@ -1,0 +1,1 @@
+/usr/bin/gcc   -rdynamic CMakeFiles/RECV_TEST.dir/src/main.c.o CMakeFiles/RECV_TEST.dir/src/raw_socket_ipv6.c.o  -o RECV_TEST 
