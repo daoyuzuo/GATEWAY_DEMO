@@ -349,7 +349,7 @@ void* ipv6_send_thread(void *arg){
   dst_ip = allocate_strmem (INET6_ADDRSTRLEN);
 
   // Interface to send packet through.
-  strcpy (interface, "ens33");
+  strcpy (interface, "eth0");
 
   // Set destination MAC address: you need to fill this out
   dst_mac[0] = 0xff;
@@ -363,7 +363,7 @@ void* ipv6_send_thread(void *arg){
   strcpy (src_ip, "2001:da8:8006:3800::5d5");
 
   // Destination URL or IPv6 address: you need to fill this out
-  strcpy (dst_ip, "2001:da8:8006:3800::657");
+  strcpy (dst_ip, "2001:da8:8006:3800::45c");
 
   // UDP data
 //  datalen = 4;

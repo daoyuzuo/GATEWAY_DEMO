@@ -1,3 +1,3 @@
-/home/book/project_test/GATEWAY_DEMO/build/CMakeFiles/rebuild_cache.dir
-/home/book/project_test/GATEWAY_DEMO/build/CMakeFiles/GATEWAY_DEMO.dir
-/home/book/project_test/GATEWAY_DEMO/build/CMakeFiles/edit_cache.dir
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/build/CMakeFiles/rebuild_cache.dir
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/build/CMakeFiles/edit_cache.dir
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/build/CMakeFiles/GATEWAY_DEMO.dir

@@ -193,7 +193,7 @@ void* can_recv_thread(void *arg){
 */
     while (1){
 
-        nbytes = read(sd, &frame, sizeof(frame));
+        nbytes = recv(sd, &frame, sizeof(frame),0);
         if(nbytes <=0){
             printf("CAN receive failed!");
             exit(EXIT_FAILURE);
@@ -226,7 +226,7 @@ void* can_send_thread(void *arg){
         if(ipv6_que_flag == 0){
             continue;
         }
-        nbytes = write(sd, &can_send_que, sizeof(can_send_que));
+        nbytes = send(sd, &can_send_que, sizeof(can_send_que),0);
         if(nbytes <= 0)
         {
             printf("CAN send failed!\n");

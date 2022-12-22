@@ -9,7 +9,6 @@ int main (int argc, char **argv){
 }
 */
 
-
 struct can_frame can_recv_que;
 uint8_t *ipv6_send_que;
 struct can_frame can_send_que;

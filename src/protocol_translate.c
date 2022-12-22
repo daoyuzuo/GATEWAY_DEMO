@@ -6,7 +6,7 @@ int can2ipv6_trans(const struct can_frame *frame, uint8_t *ipv6_data){
     uint8_t can_dlc_tmp;
     uint8_t __pad_tmp;
     uint8_t __res0_tmp;
-    uint8_t __res1_tmp;
+    uint8_t __len8_dlc_tmp;
     uint8_t data_tmp[CAN_MAX_DLEN];
     int len;
     
@@ -20,7 +20,7 @@ int can2ipv6_trans(const struct can_frame *frame, uint8_t *ipv6_data){
     can_dlc_tmp = frame->can_dlc;
     __pad_tmp = frame->__pad;
     __res0_tmp = frame->__res0;
-    __res1_tmp = frame->__res1;
+    __len8_dlc_tmp = frame->len8_dlc;
 
     // Save data[CAN_MAX_DLEN] to data_tmp[CAN_MAX_DLEN].
     for(int i = 0; i < CAN_MAX_DLEN; i++){
@@ -32,7 +32,7 @@ int can2ipv6_trans(const struct can_frame *frame, uint8_t *ipv6_data){
     memcpy (ipv6_data + 4, &can_dlc_tmp, sizeof (uint8_t));
     memcpy (ipv6_data + 4 + 1, &__pad_tmp, sizeof (uint8_t));
     memcpy (ipv6_data + 4 + 1 + 1, &__res0_tmp, sizeof (uint8_t));
-    memcpy (ipv6_data + 4 + 1 + 1 + 1, &__res1_tmp, sizeof (uint8_t));
+    memcpy (ipv6_data + 4 + 1 + 1 + 1, &__len8_dlc_tmp, sizeof (uint8_t));
     memcpy (ipv6_data + 4 + 1 + 1 + 1 + 1, data_tmp, CAN_MAX_DLEN*sizeof (uint8_t));
     
     //return lenth of the translated data;
@@ -48,7 +48,7 @@ int ipv62can_trans(const uint8_t *ipv6_data, struct can_frame *frame){
     memcpy (&frame->can_dlc, ipv6_data + 4, sizeof (uint8_t));
     memcpy (&frame->__pad, ipv6_data + 4 + 1, sizeof (uint8_t));
     memcpy (&frame->__res0, ipv6_data + 4 + 1 + 1, sizeof (uint8_t));
-    memcpy (&frame->__res1, ipv6_data + 4 + 1 + 1 + 1, sizeof (uint8_t));
+    memcpy (&frame->len8_dlc, ipv6_data + 4 + 1 + 1 + 1, sizeof (uint8_t));
     memcpy (&frame->data, ipv6_data + 4 + 1 + 1 + 1 + 1, CAN_MAX_DLEN*sizeof (uint8_t));
 
     //return lenth of the translated data;

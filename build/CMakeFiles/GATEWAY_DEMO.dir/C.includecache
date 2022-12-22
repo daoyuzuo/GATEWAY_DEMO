@@ -86,9 +86,9 @@ linux/can.h
 linux/can/raw.h
 -
 
-/home/book/project_test/GATEWAY_DEMO/src/C_queue.c
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/C_queue.c
 C_queue.h
-/home/book/project_test/GATEWAY_DEMO/src/C_queue.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/C_queue.h
 stdlib.h
 -
 stdio.h
@@ -96,47 +96,47 @@ stdio.h
 string.h
 -
 
-/home/book/project_test/GATEWAY_DEMO/src/main.c
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/main.c
 raw_socket_ipv6.h
-/home/book/project_test/GATEWAY_DEMO/src/raw_socket_ipv6.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/raw_socket_ipv6.h
 socket_can.h
-/home/book/project_test/GATEWAY_DEMO/src/socket_can.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/socket_can.h
 protocol_convert.h
-/home/book/project_test/GATEWAY_DEMO/src/protocol_convert.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/protocol_convert.h
 protocol_translate.h
-/home/book/project_test/GATEWAY_DEMO/src/protocol_translate.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/protocol_translate.h
 pthread.h
 -
 
-/home/book/project_test/GATEWAY_DEMO/src/priority.c
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/priority.c
 priority.h
-/home/book/project_test/GATEWAY_DEMO/src/priority.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/priority.h
 
-/home/book/project_test/GATEWAY_DEMO/src/protocol_convert.c
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/protocol_convert.c
 protocol_convert.h
-/home/book/project_test/GATEWAY_DEMO/src/protocol_convert.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/protocol_convert.h
 
-/home/book/project_test/GATEWAY_DEMO/src/protocol_translate.c
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/protocol_translate.c
 protocol_translate.h
-/home/book/project_test/GATEWAY_DEMO/src/protocol_translate.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/protocol_translate.h
 
-/home/book/project_test/GATEWAY_DEMO/src/raw_socket_ipv6.c
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/raw_socket_ipv6.c
 raw_socket_ipv6.h
-/home/book/project_test/GATEWAY_DEMO/src/raw_socket_ipv6.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/raw_socket_ipv6.h
 linux/can.h
 -
 protocol_translate.h
-/home/book/project_test/GATEWAY_DEMO/src/protocol_translate.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/protocol_translate.h
 
-/home/book/project_test/GATEWAY_DEMO/src/redundancy_transmit.c
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/redundancy_transmit.c
 redundancy_transmit.h
-/home/book/project_test/GATEWAY_DEMO/src/redundancy_transmit.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/redundancy_transmit.h
 
-/home/book/project_test/GATEWAY_DEMO/src/socket_can.c
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/socket_can.c
 socket_can.h
-/home/book/project_test/GATEWAY_DEMO/src/socket_can.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/socket_can.h
 raw_socket_ipv6.h
-/home/book/project_test/GATEWAY_DEMO/src/raw_socket_ipv6.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/raw_socket_ipv6.h
 protocol_translate.h
-/home/book/project_test/GATEWAY_DEMO/src/protocol_translate.h
+/home/book/GATEWAY_project/TEST_RECV/GATEWAY_DEMO/src/protocol_translate.h
 
