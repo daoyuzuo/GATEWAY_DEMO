@@ -1,6 +1,7 @@
 #include "socket_can.h"
 #include "raw_socket_ipv6.h"
 #include "protocol_translate.h" 
+#include "config.h"
 
 extern struct can_frame can_recv_que;
 extern uint8_t *ipv6_send_que;

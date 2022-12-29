@@ -23,6 +23,7 @@ CMakeFiles/GATEWAY_DEMO.dir/src/protocol_translate.c.o: ../include/raw_socket_ip
 CMakeFiles/GATEWAY_DEMO.dir/src/protocol_translate.c.o: ../include/socket_can.h
 CMakeFiles/GATEWAY_DEMO.dir/src/protocol_translate.c.o: ../src/protocol_translate.c
 
+CMakeFiles/GATEWAY_DEMO.dir/src/raw_socket_ipv6.c.o: ../include/config.h
 CMakeFiles/GATEWAY_DEMO.dir/src/raw_socket_ipv6.c.o: ../include/protocol_translate.h
 CMakeFiles/GATEWAY_DEMO.dir/src/raw_socket_ipv6.c.o: ../include/raw_socket_ipv6.h
 CMakeFiles/GATEWAY_DEMO.dir/src/raw_socket_ipv6.c.o: ../include/socket_can.h
@@ -32,6 +33,7 @@ CMakeFiles/GATEWAY_DEMO.dir/src/redundancy_transmit.c.o: ../include/redundancy_t
 CMakeFiles/GATEWAY_DEMO.dir/src/redundancy_transmit.c.o: ../include/socket_can.h
 CMakeFiles/GATEWAY_DEMO.dir/src/redundancy_transmit.c.o: ../src/redundancy_transmit.c
 
+CMakeFiles/GATEWAY_DEMO.dir/src/socket_can.c.o: ../include/config.h
 CMakeFiles/GATEWAY_DEMO.dir/src/socket_can.c.o: ../include/protocol_translate.h
 CMakeFiles/GATEWAY_DEMO.dir/src/socket_can.c.o: ../include/raw_socket_ipv6.h
 CMakeFiles/GATEWAY_DEMO.dir/src/socket_can.c.o: ../include/socket_can.h

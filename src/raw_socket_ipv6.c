@@ -1,6 +1,7 @@
 #include "raw_socket_ipv6.h"
 #include <linux/can.h>
 #include "protocol_translate.h"
+#include "config.h"
 
 extern struct can_frame can_recv_que;
 extern uint8_t *ipv6_send_que;
@@ -349,7 +350,7 @@ void* ipv6_send_thread(void *arg){
   dst_ip = allocate_strmem (INET6_ADDRSTRLEN);
 
   // Interface to send packet through.
-  strcpy (interface, "eth0");
+  strcpy (interface, INTERFACE_ONE);
 
   // Set destination MAC address: you need to fill this out
   dst_mac[0] = 0xff;
@@ -360,10 +361,10 @@ void* ipv6_send_thread(void *arg){
   dst_mac[5] = 0xff;
 
   // Source IPv6 address: you need to fill this out
-  strcpy (src_ip, "2001:da8:8006:3800::5d5");
+  strcpy (src_ip, LOCAL_IPV6ADDR);
 
   // Destination URL or IPv6 address: you need to fill this out
-  strcpy (dst_ip, "2001:da8:8006:3800::45c");
+  strcpy (dst_ip, REMOTE_IPV6ADDR);
 
   // UDP data
 //  datalen = 4;
@@ -371,8 +372,8 @@ void* ipv6_send_thread(void *arg){
 //  data[1] = 'e';
 //  data[2] = 's';
 //  data[3] = 't';
-  src_port = 8888;
-  dst_port = 8888;
+  src_port = LOCAL_PORT;
+  dst_port = REMOTE_PORT;
 
   // Find interface index from interface name and store index in
   // struct sockaddr_ll device, which will be used as an argument of sendto().

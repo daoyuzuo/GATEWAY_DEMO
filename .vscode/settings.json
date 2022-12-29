@@ -6,6 +6,7 @@
         "socket_can.h": "c",
         "protocol_translate.h": "c",
         "ioctl.h": "c",
-        "can.h": "c"
+        "can.h": "c",
+        "string.h": "c"
     }
 }
